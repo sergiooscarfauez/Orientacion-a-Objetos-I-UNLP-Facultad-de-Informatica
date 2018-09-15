@@ -10,7 +10,9 @@ Object subclass: #Balanza
 	poolDictionaries: ''
 	category: 'Objetos1-BalanzaElectronica'!
   
+****************************  
 Métodos de la Clase Balanza:
+****************************
 (Accessing)
 
 agregarProducto: producto
@@ -53,43 +55,45 @@ pesoTotal
 
 precioTotal
 
-^precioTotal! !
+"Retorna el precioTotal."
 
-!Balanza methodsFor: 'accessing' stamp: 'Sergio 9/6/2018 18:18'!
+^precioTotal
+
+------------------------------------------------------------------------------------
+
 cantidadDeProductos: aInteger
 
-cantidadDeProductos := aInteger.! !
+"Setea la cantidadDeProductos."
 
-!Balanza methodsFor: 'accessing' stamp: 'Sergio 9/13/2018 14:20'!
+cantidadDeProductos := aInteger.
+
+------------------------------------------------------------------------------------
+
 pesoTotal: aReal
+
+"Setea el pesoTotal."
 
 pesoTotal := aReal.
 
+------------------------------------------------------------------------------------
 
-! !
-
-!Balanza methodsFor: 'accessing' stamp: 'Sergio 9/13/2018 17:46'!
-agregarProducto: producto
-
-cantidadDeProductos := cantidadDeProductos +1.
-precioTotal := self precioTotal + producto precio.
-pesoTotal := self pesoTotal + producto peso.
-
-
-! !
-
-!Balanza methodsFor: 'accessing' stamp: 'Anonymous 9/6/2018 17:40'!
 cantidadDeProductos
 
-^cantidadDeProductos! !
+"Retorna la cantidadDeProductos"
 
+^cantidadDeProductos.
 
-!Balanza methodsFor: 'initialization' stamp: 'Anonymous 9/6/2018 15:30'!
+------------------------------------------------------------------------------------
+
+(initialization)
+
 initialize
 
+"Realizo la inicialización poniendo en cero el pesoTotal, el precioTotal y la cantidadDeProductos."
+
 self 
-   pesoTotal: 0;
+	pesoTotal: 0;
 	precioTotal: 0;
 	cantidadDeProductos: 0.	
-		! !
+	
 
