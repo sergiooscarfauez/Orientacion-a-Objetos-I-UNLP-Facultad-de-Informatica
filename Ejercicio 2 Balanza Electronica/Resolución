@@ -26,6 +26,30 @@ pesoTotal := self pesoTotal + producto peso.
 
 ------------------------------------------------------------------------------------
 
+emitirTicket
+
+"Creo la variable temporal ticket."
+
+    | ticket |
+
+    ticket := Ticket new.
+    
+    ticket pesoTotal: self pesoTotal.
+    
+    ticket precioTotal: self precioTotal.
+    
+    ticket cantidadDeProductos: self cantidadDeProductos.
+    
+    ticket impuesto.
+    
+    ticket fecha: Date today.
+    
+"Devuelvo el ticket. Recordar: Es importante devolverlo una vez realizada las operaciones."
+    
+    ^ ticket.
+    
+------------------------------------------------------------------------------------
+
 ponerEnCero: producto
 
 "Recibo el producto, pongo en 0 el pesoTotal, el precioTotal y la cantidadDeProductos y lo devuelvo."
