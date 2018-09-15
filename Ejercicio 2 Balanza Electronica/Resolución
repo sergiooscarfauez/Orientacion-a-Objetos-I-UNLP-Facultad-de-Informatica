@@ -1,2 +1,95 @@
 Ejercicio 2: Balanza Electrónica
 
+Importar en Pharo el archivo Objetos1-BalanzaElectronica.st, dicha implementación pasa todos los test.
+
+Clase Balanza:
+
+Object subclass: #Balanza
+	instanceVariableNames: 'cantidadDeProductos precioTotal pesoTotal'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Objetos1-BalanzaElectronica'!
+  
+Métodos de la Clase Balanza:
+(Accessing)
+
+agregarProducto: producto
+
+"Para agregar un producto sumo uno a la cantidadDeProductos que tengo, a precioTotal, le sumo al valor que tengo el
+precio del prodcuto, lo mismo con el pesoTotal, le sumo al valor que tengo el peso del producto."
+
+cantidadDeProductos := cantidadDeProductos +1.
+precioTotal := self precioTotal + producto precio.
+pesoTotal := self pesoTotal + producto peso.
+
+------------------------------------------------------------------------------------
+
+ponerEnCero: producto
+
+"Recibo el producto, pongo en 0 el pesoTotal, el precioTotal y la cantidadDeProductos y lo devuelvo."
+
+pesoTotal := 0.
+precioTotal := 0.
+cantidadDeProductos := 0.
+^producto.
+
+------------------------------------------------------------------------------------
+
+precioTotal: aReal
+
+"Setea el precioTotal"
+
+precioTotal := aReal.
+
+------------------------------------------------------------------------------------
+
+pesoTotal
+
+"Retorna el pesoTotal"
+
+^pesoTotal
+
+------------------------------------------------------------------------------------
+
+precioTotal
+
+^precioTotal! !
+
+!Balanza methodsFor: 'accessing' stamp: 'Sergio 9/6/2018 18:18'!
+cantidadDeProductos: aInteger
+
+cantidadDeProductos := aInteger.! !
+
+!Balanza methodsFor: 'accessing' stamp: 'Sergio 9/13/2018 14:20'!
+pesoTotal: aReal
+
+pesoTotal := aReal.
+
+
+! !
+
+!Balanza methodsFor: 'accessing' stamp: 'Sergio 9/13/2018 17:46'!
+agregarProducto: producto
+
+cantidadDeProductos := cantidadDeProductos +1.
+precioTotal := self precioTotal + producto precio.
+pesoTotal := self pesoTotal + producto peso.
+
+
+! !
+
+!Balanza methodsFor: 'accessing' stamp: 'Anonymous 9/6/2018 17:40'!
+cantidadDeProductos
+
+^cantidadDeProductos! !
+
+
+!Balanza methodsFor: 'initialization' stamp: 'Anonymous 9/6/2018 15:30'!
+initialize
+
+self 
+   pesoTotal: 0;
+	precioTotal: 0;
+	cantidadDeProductos: 0.	
+		! !
+
