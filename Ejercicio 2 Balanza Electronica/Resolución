@@ -286,5 +286,6 @@ fecha := aString
 cantidadDeProductos
 
 "Retorno la cantidadDeProductos."
+
 ^cantidadDeProductos
 
