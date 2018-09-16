@@ -1,10 +1,10 @@
-Ejercicio 2: Balanza Electrónica
+**Ejercicio 2: Balanza Electrónica**
 
 Importar en Pharo el archivo Objetos1-BalanzaElectronica.st, dicha implementación pasa todos los test.
 
 Clase Balanza:
 
-Object subclass: #Balanza
+    Object subclass: #Balanza
 	instanceVariableNames: 'cantidadDeProductos precioTotal pesoTotal'
 	classVariableNames: ''
 	poolDictionaries: ''
@@ -15,14 +15,14 @@ Métodos de la Clase Balanza:
 ****************************
 (Accessing)
 
-agregarProducto: producto
+    agregarProducto: producto
 
-"Para agregar un producto sumo uno a la cantidadDeProductos que tengo, a precioTotal, le sumo al valor que tengo más
-precio del prodcuto, lo mismo con el pesoTotal, le sumo al valor que tengo el peso del producto."
+	"Para agregar un producto sumo uno a la cantidadDeProductos que tengo, a precioTotal, le sumo al valor que tengo más
+	precio del prodcuto, lo mismo con el pesoTotal, le sumo al valor que tengo el peso del producto."
 
-cantidadDeProductos := cantidadDeProductos +1.
-precioTotal := self precioTotal + producto precio.
-pesoTotal := self pesoTotal + producto peso.
+	cantidadDeProductos := cantidadDeProductos +1.
+	precioTotal := self precioTotal + producto precio.
+	pesoTotal := self pesoTotal + producto peso.
 
 ------------------------------------------------------------------------------------
 
