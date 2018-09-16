@@ -162,7 +162,7 @@ descripcion := aString
 precio
 
 "Retorna el precio. ¿Cuál es el precio de un producto? El precio de un producto es el valor que obtenemos luego de
-multiplicar su peso por el precioPorKilo. Ejemplo: El precio de un kilogramos de alvellanas es de cien pesos, y tengo
+multiplicar su peso por el precioPorKilo. Ejemplo: El precio de un kilogramo de avellanas es de cien pesos, y tengo
 un paquete con tres kilos de avellanas, entonces el precio del paquete es de trescientos pesos. No es necesario crear una 
 variable temploral solamente devuelvo el valor que resulta de esta sencilla cuenta."
 
