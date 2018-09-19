@@ -5,7 +5,7 @@ Importar en Pharo el archivo Objetos1-Presupuesto.st, dicha implementación pasa
 Clase Item:
 
     Object subclass: #Item
-    	instanceVariableNames: 'costoUnitario item costo cantidad'
+        instanceVariableNames: 'costoUnitario item costo cantidad'
 	classVariableNames: ''
 	poolDictionaries: ''
     	category: 'Objetos1-Presupuesto'
