@@ -26,7 +26,7 @@ Métodos de la Clase Balanza:
 
 ------------------------------------------------------------------------------------
 
-emitirTicket
+    emitirTicket
 
     "Creo la variable temporal ticket."
 
