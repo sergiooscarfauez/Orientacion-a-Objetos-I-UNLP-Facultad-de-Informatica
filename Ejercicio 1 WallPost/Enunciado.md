@@ -40,6 +40,8 @@ Tercera parte
 
 Una vez que su implementación pasa los tests de la primera parte puede utilizar la ventana que se muestra a continuación, la cual permite inspeccionar y manipular el post (definir su texto, hacer like y dislike, marcarlo como destacado).
 
+![Ventana](https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/2.png?raw=true)
+
 Para abrir la ventana puede evaluar la siguiente expresión en el Playground:
 WallpostUI on: (Wallpost new)
 
