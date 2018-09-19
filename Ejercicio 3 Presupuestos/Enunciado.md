@@ -9,9 +9,9 @@ Evalúe la siguiente expresión en un Playground.
 
 **(Insertar imagen de las clases)**
 
- (IceRepositoryCreator new
-  	url: 'https://bitbucket.org/lifia-oop/practicas-objetos-1.git';
-  	createRepository) updatePackage: 'Objetos1-PresupuestoSkeleton'.
+     (IceRepositoryCreator new
+      	url: 'https://bitbucket.org/lifia-oop/practicas-objetos-1.git';
+      	createRepository) updatePackage: 'Objetos1-PresupuestoSkeleton'.
 
 Encontrará un paquete Objetos1-PresupuestoSkeleton. En el mismo existe un tag "Tests" en el que hay dos clases que implementan los tests que su implementación deberá pasar. 
 
