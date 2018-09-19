@@ -1,4 +1,4 @@
-Ejercicio 5: Genealogía salvaje
+**Ejercicio 5: Genealogía salvaje**
 
 Importar en Pharo el archivo Objetos1-GenealogiaAnimal.st, dicha implementación pasa todos los test.
 Crédito: Ejercicio resuelto por la cátedra en "Objetos1-GenealogiaAnimalSolution.package".
