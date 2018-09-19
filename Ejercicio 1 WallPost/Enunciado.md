@@ -34,7 +34,7 @@ Evalúe la siguiente expresión en un Playground.
 Esa expresión creará un paquete Objetos1-WallpostSkeleton y descargará en el mismo las pruebas (tests) que utilizaremos para verificar el código que ha escrito. 
 Utilice los tests provistos por la cátedra para comprobar que su implementación de Wallpost es correcta. En la siguiente figura se observa el detalle de las clase de pruebas WallpostTest. Para ejecutar los tests simplemente haga click sobre la burbuja que se encuentra a la derecha del nombre de la clase. Si la burbuja es de color gris, significa que el test no ha sido ejecutado todavía. Si es rojo significa que hubo errores. Si es amarillo significa que los resultados no son los esperados. Si es verde, su código ha pasado el test.  Siéntase libre de investigar la implementación de la clase de test. Ya veremos en detalle cómo implementarlas. 
 
-![Diagrama de Clases](https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true)
+![Diagrama de Clases](https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true?style=centerme)
 
 Tercera parte
 
@@ -48,3 +48,8 @@ En la expresión que evaluó para abrir la ventana WallpostUI on: (Wallpost new)
 En la primer parte de este ejercicio ud. implementó el método #initialize, pero, ¿quien lo invoca? 
 Ayuda: coloque un breakpoint en el método initialize para ver quién lo invoca. 
 Ayuda de la ayuda: para poner un breakpoint agregue la sentencia self halt. al código del método #initialize.
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
