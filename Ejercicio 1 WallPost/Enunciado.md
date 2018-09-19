@@ -35,7 +35,7 @@ Esa expresión creará un paquete Objetos1-WallpostSkeleton y descargará en el 
 Utilice los tests provistos por la cátedra para comprobar que su implementación de Wallpost es correcta. En la siguiente figura se observa el detalle de las clase de pruebas WallpostTest. Para ejecutar los tests simplemente haga click sobre la burbuja que se encuentra a la derecha del nombre de la clase. Si la burbuja es de color gris, significa que el test no ha sido ejecutado todavía. Si es rojo significa que hubo errores. Si es amarillo significa que los resultados no son los esperados. Si es verde, su código ha pasado el test.  Siéntase libre de investigar la implementación de la clase de test. Ya veremos en detalle cómo implementarlas. 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true">
+  <img src="https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true">
 </p>
 
 ![Diagrama de Clases](https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true)
