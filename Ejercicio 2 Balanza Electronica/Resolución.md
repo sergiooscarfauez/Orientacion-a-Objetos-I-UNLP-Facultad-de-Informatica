@@ -28,7 +28,7 @@ Métodos de la Clase Balanza:
 
 emitirTicket
 
-"Creo la variable temporal ticket."
+    "Creo la variable temporal ticket."
 
     | ticket |
 
@@ -44,7 +44,7 @@ emitirTicket
     
     ticket fecha: Date today.
     
-"Devuelvo el ticket. Recordar: Es importante devolverlo una vez realizada las operaciones."
+    "Devuelvo el ticket. Recordar: Es importante devolverlo una vez realizada las operaciones."
     
     ^ ticket.
     
