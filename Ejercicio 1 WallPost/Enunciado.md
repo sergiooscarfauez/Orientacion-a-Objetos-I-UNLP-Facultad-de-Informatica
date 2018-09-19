@@ -35,16 +35,16 @@ Esa expresión creará un paquete Objetos1-WallpostSkeleton y descargará en el 
 Utilice los tests provistos por la cátedra para comprobar que su implementación de Wallpost es correcta. En la siguiente figura se observa el detalle de las clase de pruebas WallpostTest. Para ejecutar los tests simplemente haga click sobre la burbuja que se encuentra a la derecha del nombre de la clase. Si la burbuja es de color gris, significa que el test no ha sido ejecutado todavía. Si es rojo significa que hubo errores. Si es amarillo significa que los resultados no son los esperados. Si es verde, su código ha pasado el test.  Siéntase libre de investigar la implementación de la clase de test. Ya veremos en detalle cómo implementarlas. 
 
 <p align="center">
-  <img src="https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true">
+  <img src="https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true" alt="Diagrama de Clases">
 </p>
-
-![Diagrama de Clases](https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/1.png?raw=true)
 
 Tercera parte
 
 Una vez que su implementación pasa los tests de la primera parte puede utilizar la ventana que se muestra a continuación, la cual permite inspeccionar y manipular el post (definir su texto, hacer like y dislike, marcarlo como destacado).
 
-![Ventana](https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/2.png?raw=true)
+<p align="center">
+  <img src="https://github.com/sergiooscarfauez/Orientacion-a-Objetos-I-UNLP-Facultad-de-Informatica/blob/master/Ejercicio%201%20WallPost/Imagenes/2.png?raw=true" alt="Ventana">
+</p>
 
 Para abrir la ventana puede evaluar la siguiente expresión en el Playground:
 WallpostUI on: (Wallpost new)
