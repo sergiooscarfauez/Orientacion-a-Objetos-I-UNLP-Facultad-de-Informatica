@@ -1,10 +1,13 @@
 Ejercicio 4: Figuras y cuerpos
+
 Figuras en 2D
+
 Defina un nuevo paquete Objetos1-FigurasYCuerpos-Model
 En taller de programación definió clases para representar figuras geométricas. Retomaremos ese ejercicio para implementarlo en Smalltalk (ahora vamos a trabajar con Cuadrados y Círculos).
 El siguiente diagrama de clases documenta los mensajes que estos objetos deben entender. Decida usted qué variables de instancia son necesarias. Ambas clases son subclases de Object. Puede agregar mensajes adicionales si lo cree necesario.
 
 Fórmulas y mensajes útiles:
+
 Diámetro del círculo: radio * 2
 Perímetro del círculo: π * diámetro
 Área del círculo: π * radio 2
@@ -17,6 +20,7 @@ Si reemplazamos la cara basal por un rectángulo, tendremos un prisma (una caja 
 El siguiente diagrama de clases documenta los mensajes que entiende un cuerpo. Decida usted qué variables de instancia son necesarias. Cuerpo es subclase de Object.
 
 Fórmulas útiles:
+
 La superficie exterior de un cuerpo es: 
 2* area-cara-basal + perimetro-cara-basal * altura-del-cuerpo
 El volumen de un cuerpo es: area-cara-basal * altura
@@ -32,5 +36,7 @@ Evalúe la siguiente expresión en un Playground.
 Esa expresión creará un paquete Objetos1-FigurasYCuerposSkeleton y descargará en el mismo las pruebas (tests) que su código deberá pasar. 
 
 Siguiendo los ejemplos de ejercicios anteriores, ejecute las pruebas automatizadas provistas. Si algún test no pasa, consulte al ayudante. 
+
 Discuta y reflexione
+
 Discuta con el ayudante sus elecciones de variables de instancia y métodos adicionales. ¿Es necesario todo lo que definió?
