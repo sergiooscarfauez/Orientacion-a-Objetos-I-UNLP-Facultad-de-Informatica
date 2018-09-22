@@ -32,5 +32,34 @@ Métodos de la Clase Item:
     Finalmente, hay que notar que ^ va a retornar el resultado, que es un objeto, de haber realizado todas las operaciones anteriores.)
     
     ^Float pi * self diametro
+ 
+-------------------------------------------------------------------------------------------
+
+    diametro
+
+    "La fórmula matemática del diametro de un círculo es: 2 * radio.
+    En este caso también es un mensaje binario, cuyo resultado devolvemos con ^."
     
-(escribiendo)...
+    ^2 * radio
+    
+-------------------------------------------------------------------------------------------
+
+    radio
+
+    "Devuelvo el radio.".
+    
+    ^radio
+
+-------------------------------------------------------------------------------------------
+
+    radio: aDouble
+
+    radio := aDouble
+
+-------------------------------------------------------------------------------------------
+
+    area
+    
+    "La fórmula matematica del area es: π * radio²."
+    
+    ^Float pi * radio squared
