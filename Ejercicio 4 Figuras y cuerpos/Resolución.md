@@ -176,7 +176,9 @@ Métodos de la Clase Cuerpo:
     volumen
 
     "La fórmula matematica del volumen de un cuerpo es: area de la cara basal * altura.
-    Devolvemos el resultado con ^."
+    Recordar la precedencia de los mensajes en Smalltalk, primero los mensajes unarios, luegos los binarios y por último los keyword. Y que los mensajes son evaluados de izquierda a derecha.
+    
+    Primero se envia el mensaje unario area a caraBasal y luego se resuelve el mensaje binario multiplicando la altura por el resultado del envío del mensaje unario anterior. Finalmente devolvemos el resultado con ^."
     
     ^caraBasal area * altura
 
