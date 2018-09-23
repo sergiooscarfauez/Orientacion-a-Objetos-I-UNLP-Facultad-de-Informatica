@@ -124,4 +124,70 @@ Métodos de la Clase Cuadrado:
 
 ==================================================================================================
 
-(redactando)...
+---------------------------------------------------------------------------------
+
+Métodos de la Clase Cuerpo:
+
+---------------------------------------------------------------------------------
+(accessing)
+
+    Object subclass: #Cuerpo
+	    instanceVariableNames: 'altura volumen caraBasal areaExterior cuerpo superficieExterior'
+	    classVariableNames: ''
+	    poolDictionaries: ''
+	    category: 'Objetos1-FigurasYCuerpos'
+
+---------------------------------------------------------------------------------
+
+    altura
+
+    ^altura
+
+---------------------------------------------------------------------------------
+
+    superficieExterior
+
+    "La fórmula matematica de la superficie exterior de un cuerpo es: 2 * area de la cara basal + perimetro de la cara basal * altura del cuerpo.
+    Nota: Es importante agregar los paréntisis para modificar el orden en que se envían los mensajes, puesto que los 
+    mensajes que estan encerrados entre paréntesis se envían primero. Finalmente devolvemos el resultado con ^."
+    
+    ^(caraBasal area * 2) + ((caraBasal perimetro) * altura)
+
+---------------------------------------------------------------------------------
+
+    caraBasal
+
+    ^caraBasal
+    
+---------------------------------------------------------------------------------
+
+    superficieExterior: aDouble
+
+    superficieExterior := aDouble
+
+---------------------------------------------------------------------------------
+
+    caraBasal: aDouble
+
+    caraBasal := aDouble
+
+---------------------------------------------------------------------------------
+
+    volumen
+
+    "La fórmula matematica del volumen de un cuerpo es: area de la cara basal * altura.
+    Devolvemos el resultado con ^."
+    
+    ^caraBasal area * altura
+
+---------------------------------------------------------------------------------
+
+    volumen: aDouble
+
+    volumen := aDouble
+
+---------------------------------------------------------------------------------
+
+    altura: aDouble
+
+    altura := aDouble
