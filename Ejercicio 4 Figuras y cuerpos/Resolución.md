@@ -64,7 +64,7 @@ Métodos de la Clase Item:
     
     ^Float pi * radio squared
     
-===========================================================================================
+======================================================================================================
 
 Clase Cuadrado
 
@@ -102,12 +102,18 @@ Métodos de la Clase Cuadrado:
 
     perimetro
 
+    "La fórmula matemática del perimetro de un cuadrado es lado * 4 , que es cuatro veces la longitud del lado.
+    En este caso es un mensaje binario, cuyo resultado devolvemos con ^."
+    
     ^4 * lado
 
 ---------------------------------------------------------------------------------
 
     area
 
+    "La fórmula matemática del area de un cuadrado es lado². En este caso es un mensaje unario, cuyo resultado
+    devolvemos con ^."
+    
     ^lado squared
 
 ---------------------------------------------------------------------------------
@@ -116,3 +122,6 @@ Métodos de la Clase Cuadrado:
 
     lado := aDouble
 
+======================================================================================================
+
+(redactando)...
