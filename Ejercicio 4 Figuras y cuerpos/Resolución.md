@@ -8,7 +8,7 @@ Clase Circulo
 	    instanceVariableNames: 'radio'
 	    classVariableNames: ''
 	    poolDictionaries: ''
-	    category: 'Objetos1-FigurasYCuerpos'!
+	    category: 'Objetos1-FigurasYCuerpos'
 
 ---------------------------------------------------------------------------------
 
