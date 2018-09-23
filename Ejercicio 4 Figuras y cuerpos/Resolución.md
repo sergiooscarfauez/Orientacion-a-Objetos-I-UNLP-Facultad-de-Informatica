@@ -63,3 +63,56 @@ Métodos de la Clase Item:
     "La fórmula matematica del area es: π * radio²."
     
     ^Float pi * radio squared
+    
+===========================================================================================
+
+Clase Cuadrado
+
+
+    Object subclass: #Cuadrado
+    	    instanceVariableNames: 'lado perimetro area'
+	    classVariableNames: ''
+	    poolDictionaries: ''
+	    category: 'Objetos1-FigurasYCuerpos'
+
+---------------------------------------------------------------------------------
+
+Métodos de la Clase Cuadrado:
+
+---------------------------------------------------------------------------------
+(accessing)
+
+    perimetro: aDouble
+
+    perimetro := aDouble
+    
+---------------------------------------------------------------------------------
+
+    lado
+
+    ^lado
+
+---------------------------------------------------------------------------------
+
+    area: aDouble
+
+    area := aDouble
+
+---------------------------------------------------------------------------------
+
+    perimetro
+
+    ^4 * lado
+
+---------------------------------------------------------------------------------
+
+    area
+
+    ^lado squared
+
+---------------------------------------------------------------------------------
+
+    lado: aDouble
+
+    lado := aDouble
+
